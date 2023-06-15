@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uKEJZlWDsoC0p/jJ5ROHVvrdahmsZnue3UULLXi+hwR8bxswjpD3ZD2Lg//tyg7ONkxAzchalYXm2HEBEfGcoQ==",
+  "dgSpecHash": "6E4L3xZmUvIVYYujjm8mmIFQagHZDs+Iuk6o17+li0Z9/EweY6VidrvG8+f4ZYm9nOSiZNVO/MBpE9csVnTKSg==",
   "success": true,
-  "projectFilePath": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Data\\ToDoList.Data.csproj",
+  "projectFilePath": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Data\\ToDoList.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.11\\microsoft.aspnetcore.cryptography.internal.6.0.11.nupkg.sha512",

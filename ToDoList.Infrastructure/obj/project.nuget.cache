@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tVqk1/ntUWmgVhLjF43PH7xs9Z9VIDAQlWAAJwNEXa6oYW3tH2J7MN3whJELLIMpvl6R+SbUE/yQsCqYT4UQ3Q==",
+  "dgSpecHash": "waUE72w5ilxzjheuohbR6QWBCb8pJHbaEp/pRG8CY1fWW72ofCIioKvjmece+f6+2Mjq/d+4ajTCQib6uHCsCA==",
   "success": true,
-  "projectFilePath": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Infrastructure\\ToDoList.Infrastructure.csproj",
+  "projectFilePath": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Infrastructure\\ToDoList.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

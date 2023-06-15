@@ -12048,11 +12048,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Web\\ToDoList.Web.csproj",
+      "projectUniqueName": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Web\\ToDoList.Web.csproj",
       "projectName": "ToDoList.Web",
-      "projectPath": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Web\\ToDoList.Web.csproj",
+      "projectPath": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Web\\ToDoList.Web.csproj",
       "packagesPath": "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\",
-      "outputPath": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Web\\obj\\",
+      "outputPath": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Munther Abu Assi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12069,11 +12069,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ASPProject\\new\\ToDoList\\ToDoList.Data\\ToDoList.Data.csproj": {
-              "projectPath": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Data\\ToDoList.Data.csproj"
+            "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Data\\ToDoList.Data.csproj": {
+              "projectPath": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Data\\ToDoList.Data.csproj"
             },
-            "D:\\ASPProject\\new\\ToDoList\\ToDoList.Infrastructure\\ToDoList.Infrastructure.csproj": {
-              "projectPath": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Infrastructure\\ToDoList.Infrastructure.csproj"
+            "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Infrastructure\\ToDoList.Infrastructure.csproj": {
+              "projectPath": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Infrastructure\\ToDoList.Infrastructure.csproj"
             }
           }
         }

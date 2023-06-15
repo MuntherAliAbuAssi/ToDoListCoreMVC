@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cqQsDIvLEV58joBqNuQNcJj+PJv5JEg70K1Tde/y5wrQb4CNeygejvsgojrCC21Lv6AQpf/01tnwv65sUGL36Q==",
+  "dgSpecHash": "bCOnSHFTOKYq84BAo0tiecFFTcWQ0poDqNZmDsJACZ0JN7MY2aSZwxwg5lQCcl1hE7NQ9PCwsiN10+qqqL1bhQ==",
   "success": true,
-  "projectFilePath": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Core\\ToDoList.Core.csproj",
+  "projectFilePath": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Core\\ToDoList.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",

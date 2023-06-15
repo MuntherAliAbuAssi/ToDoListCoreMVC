@@ -148,11 +148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Core\\ToDoList.Core.csproj",
+      "projectUniqueName": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Core\\ToDoList.Core.csproj",
       "projectName": "ToDoList.Core",
-      "projectPath": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Core\\ToDoList.Core.csproj",
+      "projectPath": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Core\\ToDoList.Core.csproj",
       "packagesPath": "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\",
-      "outputPath": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Core\\obj\\",
+      "outputPath": "D:\\ASPProject\\ASPGithup\\MuntherAliAbuAssi\\ToDoListCoreMVC\\ToDoList.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Munther Abu Assi\\AppData\\Roaming\\NuGet\\NuGet.Config",
