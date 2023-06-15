@@ -1,0 +1,90 @@
+﻿@using ToDoList.Core.Enums;
+@model UpdateToDoItemDto  
+ 
+@{
+    ViewData["Title"] = "تعديل عنصر المهمة ";
+    Layout = null; 
+}   
+
+<form asp-action="Update" class="ajaxForm" tname="#kt_datatable"> 
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="row"> 
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="Notes" class="control-label"></label>
+                <input asp-for="Notes" class="form-control" />
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+    <div class="col-md-4">
+        <div class="form-group">
+            <label asp-for="Priority" class="control-label"></label>
+            <select asp-for="Priority" class="form-control">
+                <option value="@PriorityType.high">مهم جداً</option>
+                <option value="@PriorityType.low">غير مهم </option>
+            </select>
+            <span asp-validation-for="Priority" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+    <div class="col-md-4">
+        <div class="form-group">
+            <label asp-for="Status" class="control-label"></label>
+            <select asp-for="Status" class="form-control">
+                <option value="@ProgressType.Completed">مهم جداً</option>
+                <option value="@ProgressType.unfinished">غير مهم </option>
+            </select>
+            <span asp-validation-for="Status" class="text-danger"></span>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+
+    <div class="col-md-4">
+        <div class="form-group">
+            <label asp-for="ToDoListId" class="control-label"></label>
+            <select asp-for="ToDoListId" class="form-control" asp-items="@ViewBag.ToDoList"></select>
+            <span asp-validation-for="ToDoListId" class="text-danger"></span>
+        </div>
+    </div>
+
+    </div>
+    <div class="row"> 
+
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="DueDate" class="control-label"></label>
+                <input asp-for="DueDate" class="form-control" type="datetime-local" />
+                <span asp-validation-for="DueDate" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="تعديل " class="btn btn-primary" />
+        <a data-dismiss="modal" aria-label="Close" class="btn btn-danger">الغاء</a>
+    </div>
+</form>
+
+
+<script>
+    PageLoadActions();
+</script>
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cqQsDIvLEV58joBqNuQNcJj+PJv5JEg70K1Tde/y5wrQb4CNeygejvsgojrCC21Lv6AQpf/01tnwv65sUGL36Q==",
+  "success": true,
+  "projectFilePath": "D:\\ASPProject\\new\\ToDoList\\ToDoList.Core\\ToDoList.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

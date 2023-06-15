@@ -1,0 +1,17 @@
+D:\ASPProject\new\ToDoList\ToDoList.Data\bin\Debug\net6.0\ToDoList.Data.deps.json
+D:\ASPProject\new\ToDoList\ToDoList.Data\bin\Debug\net6.0\ToDoList.Data.runtimeconfig.json
+D:\ASPProject\new\ToDoList\ToDoList.Data\bin\Debug\net6.0\ToDoList.Data.dll
+D:\ASPProject\new\ToDoList\ToDoList.Data\bin\Debug\net6.0\ToDoList.Data.pdb
+D:\ASPProject\new\ToDoList\ToDoList.Data\bin\Debug\net6.0\ToDoList.Core.dll
+D:\ASPProject\new\ToDoList\ToDoList.Data\bin\Debug\net6.0\ToDoList.Core.pdb
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\ToDoList.Data.csproj.AssemblyReference.cache
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\ToDoList.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\ToDoList.Data.AssemblyInfoInputs.cache
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\ToDoList.Data.AssemblyInfo.cs
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\ToDoList.Data.csproj.CoreCompileInputs.cache
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\ToDoList.Data.csproj.CopyComplete
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\ToDoList.Data.dll
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\refint\ToDoList.Data.dll
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\ToDoList.Data.pdb
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\ToDoList.Data.genruntimeconfig.cache
+D:\ASPProject\new\ToDoList\ToDoList.Data\obj\Debug\net6.0\ref\ToDoList.Data.dll

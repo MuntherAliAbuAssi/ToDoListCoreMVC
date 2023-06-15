@@ -1,0 +1,17 @@
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\bin\Debug\net6.0\ToDoList.Infrastructure.deps.json
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\bin\Debug\net6.0\ToDoList.Infrastructure.dll
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\bin\Debug\net6.0\ToDoList.Infrastructure.pdb
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\bin\Debug\net6.0\ToDoList.Core.dll
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\bin\Debug\net6.0\ToDoList.Data.dll
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\bin\Debug\net6.0\ToDoList.Core.pdb
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\bin\Debug\net6.0\ToDoList.Data.pdb
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\obj\Debug\net6.0\ToDoList.Infrastructure.csproj.AssemblyReference.cache
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\obj\Debug\net6.0\ToDoList.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\obj\Debug\net6.0\ToDoList.Infrastructure.AssemblyInfoInputs.cache
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\obj\Debug\net6.0\ToDoList.Infrastructure.AssemblyInfo.cs
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\obj\Debug\net6.0\ToDoList.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\obj\Debug\net6.0\ToDoList.Infrastructure.csproj.CopyComplete
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\obj\Debug\net6.0\ToDoList.Infrastructure.dll
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\obj\Debug\net6.0\refint\ToDoList.Infrastructure.dll
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\obj\Debug\net6.0\ToDoList.Infrastructure.pdb
+D:\ASPProject\new\ToDoList\ToDoList.Infrastructure\obj\Debug\net6.0\ref\ToDoList.Infrastructure.dll

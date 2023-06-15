@@ -1,0 +1,193 @@
+﻿@model ToDoList.Core.Dtos.CreateUserDto
+
+@{
+    string Action = null;
+    string Controller = null;
+    string currentURL = null;
+    try
+    {
+        Action = ViewContext.RouteData.Values["action"].ToString().ToLower();
+        Controller = ViewContext.RouteData.Values["Controller"].ToString().ToLower();
+        currentURL = Controller + "/" + Action;
+         
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+
+<html lang="en" dir="rtl">
+<head>
+    <base href="../../../">
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="icon" href="~/Images/Icon.png" type="image/x-icon">
+    <meta name="description" content="Initialized via remote ajax json data" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="canonical" href="https://keenthemes.com/metronic" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link href="~/assets/plugins/global/plugins.bundle.rtl.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/plugins/custom/prismjs/prismjs.bundle.rtl.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/style.bundle.rtl.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/themes/layout/header/base/light.rtl.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/themes/layout/header/menu/light.rtl.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/themes/layout/brand/light.rtl.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/themes/layout/aside/light.rtl.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/pages/login/login-1.rtl.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/Images/Icon.png.jpg" />
+
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+    </style>
+</head>
+<body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize-hoverable page-loading">
+    <!--begin::Main-->
+    <div class="d-flex flex-column flex-root">
+        <!--begin::Login-->
+        <div class="login login-1 login-signin-on d-flex flex-column flex-lg-row flex-column-fluid bg-white" id="kt_login">
+            <!--begin::Aside-->
+            <div class="login-aside d-flex flex-column flex-row-auto" style="background-color: #F2C98A;">
+                <!--begin::Aside Top-->
+                <div class="d-flex flex-column-auto flex-column pt-lg-40 pt-15">
+                    <!--begin::Aside header-->
+                    <a href="#" class="text-center mb-10">
+                        <img src="assets/media/logos/logo-letter-1.png" class="max-h-70px" alt="" />
+                    </a>
+                    <!--end::Aside header-->
+                    <!--begin::Aside title-->
+                    <h3 class="font-weight-bolder text-center font-size-h4 font-size-h1-lg" style="color: #986923;">
+                        To Do List Management
+                    </h3>
+
+                    <img src="~/Images/Icon.png" width="40%" style="margin:auto; margin-top: 50px;" />
+                    <!--end::Aside title-->
+                </div>
+                <!--end::Aside Top-->
+            </div>
+            <!--begin::Aside-->
+            <!--begin::Content-->
+            <div class="login-content flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-7 mx-auto">
+                <!--begin::Content body-->
+                <div class="d-flex flex-column-fluid flex-center">
+                    <!--begin::Signin-->
+                    <div class="login-form login-signin">
+                        <!--begin::Form-->
+                        <form method="post" asp-action="Register" enctype="multipart/form-data">
+                            <!--begin::Title-->
+                            <div class="pb-13 pt-lg-0 pt-5">
+                                <h3 class="font-weight-bolder text-dark font-size-h4 font-size-h1-lg">تسجيل مشترك جديد</h3>
+                            </div>
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="FullName" class="control-label"></label>
+                                <input asp-for="FullName" class="form-control" />
+                                <span asp-validation-for="FullName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Email" class="control-label"></label>
+                                <input asp-for="Email" class="form-control" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Password" class="control-label"></label>
+                                <input asp-for="Password" class="form-control" type="password" />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ConfirmPassword" class="control-label"></label>
+                                <input asp-for="ConfirmPassword" class="form-control" type="password" />
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="DOB" class="control-label"></label>
+                                <input asp-for="DOB" class="form-control" type="date" />
+                                <span asp-validation-for="DOB" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Image" class="control-label"></label>
+                                <input asp-for="Image" class="form-control" type="file" />
+                                <span asp-validation-for="Image" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Create" class="btn btn-primary" />
+                            </div>
+                            <!--end::Action-->
+                        </form>
+                    </div>
+                    <!--end::Signin-->
+                </div>
+                <!--end::Content body-->
+                <div>
+                    <a asp-area="Identity" asp-page="/Account/Login">Back to Login</a>
+                </div>
+            </div>
+            <!--end::Content-->
+        </div>
+        <!--end::Login-->
+    </div>
+
+    <script src="~/assets/js/pages/custom/login/login-general.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+</body>
+</html>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+@*<h1>Register</h1>
+
+<h4>CreateUserDto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FullName" class="control-label"></label>
+                <input asp-for="FullName" class="form-control" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" type="password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword" class="control-label"></label>
+                <input asp-for="ConfirmPassword" class="form-control" type="password" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DOB" class="control-label"></label>
+                <input asp-for="DOB" class="form-control" type="date" />
+                <span asp-validation-for="DOB" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" type="file" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+*@
